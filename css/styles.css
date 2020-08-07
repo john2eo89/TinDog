@@ -1,0 +1,165 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Section */
+.title-heading {
+  font-weight: 900;
+  size : 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.section-heading {
+  font-weight: 700;
+  size : 3rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 0 3%;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* features */
+#features {
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-elements {
+  margin-bottom: 5%;
+
+}
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+.features-icons:hover {
+  color: #ff4c68;
+}
+.feature-p {
+  color: #8f8f8f;
+  padding: 0 5%;
+}
+.features-title {
+  size : 1.5rem;
+}
+/* testimonial sections */
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+
+}
+
+.testimonial-img {
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.testimonial-text {
+  font-weight: 700;
+  size : 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+.press-logo {
+  width:15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding:100px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+.pricing-text {
+  font-weight: 700;
+  size : 3rem;
+  line-height: 1.5;
+}
+.pricing-title {
+  size : 1.5rem;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5%;
+}
+
+/* footer */
+#footer {
+  background-color: #fff;
+  color: grey;
+  padding: 3%;
+}
+.footer-icon {
+  margin:0 1%;
+}
